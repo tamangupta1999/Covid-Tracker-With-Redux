@@ -1,0 +1,32 @@
+.CountryCard {
+    display: flex;
+    justify-content: space-around ;
+    box-sizing: border-box;
+    border-radius: 1.2rem;
+    box-shadow: 1px 1px 2px #ccc;
+    margin: 6px;
+}
+
+.CountryCard img {
+    height: 15px;
+    width: 20px;
+}
+
+.CountryName {
+    font: Bold 15px/15px Montserrat;
+    padding-left: 1rem;
+    display: inline-block;
+}
+
+.CountryData {
+    font: Medium 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #52586A;
+    opacity: 1;
+    font-size: 0.9rem;
+    text-align: left;
+
+}
+.Arrow {
+    padding-top: 13px;
+}
